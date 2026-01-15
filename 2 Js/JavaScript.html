@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starting js</title>        
+
+</head>
+<body onload="load_method()">
+
+
+<!--
+    we control html elements via js
+
+    for seeing errors we goto browser > inspect > console
+
+    if v r accessing elements from body thne we must write script tag after body (either v r using inline js or external js) bec console will give null error. bec if v write before body tag then element is not declare yet and we r using it thus it cant find it. so we must write script after body in case of accessing elements from body tag
+
+    html code compiles from top to bottom thus elemenets in body prints then after body v've written script tags thus that will print in sequence ie script tag first written will print first
+
+    js is error forgiveness lang eg if we forgot to write ; then it still works
+
+    document.write() // prints in web page
+    console.log() // pritns in console in browser thus only developers can see it
+
+    + adds if var r integer otherwise concatinate
+    , concatinate
+
+    wc use math, string functions.
+
+    if, swtich, loops r same as in c#
+
+    for using functions we use function keyword eg
+    // function func(){
+    //     document.write('my func');    
+    // }
+    // func();
+
+    we can goto any web and in console of that web wc write our c=own code. eg a web which contains list of actors with their name and pics, thus we can write our own code to just print their name in console (see ss). we may also print it in that web page ptractice this.
+-->
+
+    <!-- <p id="ptag" onclick="func()"></p>
+    <div id="divtag"></div>
+
+    2 ways to add on click to elements in html
+    <input type="button" value="Click on me" onclick="alert('u clicked on button')">
+    <button onclick="func()">Click on me</button> -->
+
+
+<!--  -->
+
+    <h1 onmouseover="hover()">This is first h1 tag</h1>
+    <h1>This is second h1 tag</h1>
+
+
+
+</body>
+
+<!-- <script src="/Js files/javascript code.js"></script> -->
+<!-- <script src="/Js files/javascript notes.js"></script> -->
+
+</html>
