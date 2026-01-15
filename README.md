@@ -4,7 +4,7 @@ This repository contains basic HTML, CSS, and JavaScript files created while lea
 
 The code focuses on:
 - Core HTML structure
-- Basic CSS styling
-- Simple JavaScript interactions
+- CSS stylings
+- JavaScript interactions
 
 These files are intended to demonstrate foundational understanding (with detailed notes) and learning progression.
